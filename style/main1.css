@@ -38,3 +38,8 @@ p{
     text-align: center;
     margin-top: 10px;
 }
+.table {
+    padding: 1em 20em;
+    margin: 1em;
+    width: auto;
+}
