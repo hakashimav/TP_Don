@@ -17,7 +17,7 @@
                     </ul>
                     <ul class="menu-center">
                         <li class="accueil"><a href="index.html">Accueil</a></li>
-                        <li><a href="Formulaire.html">Formulaire</a></li>
+                        <li><a href="#">Formulaire</a></li>
                         <li><a href="Tableaux.html">Tableaux</a></li>
                         <li><a href="Images.html">Images</a></li>
                         <li><a href="Listes.html">Listes</a></li>
@@ -26,6 +26,68 @@
                 </div>
             </nav>
         </header>
-        
+
+        <p>Pour avoir accès à tous les contenus du site , veillez vous inscrire</p>
+
+        <div class="form">
+            <div class="bloc">
+                <label for="nom">Nom :</label><br>
+
+                <input type="text" class="nom" id="nom" required>
+
+            </div>
+
+            <div class="bloc1">
+                <label for="prenom">Prenom :</label><br>
+
+                <input type="text" class="prenom" id="prenom" required>
+
+            </div>
+
+            <div class="bloc2">
+
+                <label for="date">Date et lieu de naissance : </label><br>
+
+                <input type="date" class="date" id="date"><input type="text" class="lieu" id="date" placeholder="lieu de naissance">
+
+            </div>
+
+            <div class="bloc3">
+
+                <label for="langue">Langues</label><br>
+
+                <input type="checkbox" class="Fraincais" id="langue" label="Français"> Français <input type="checkbox" class="Anglais" id="langue" label="Anglais"> Anglais <input type="checkbox" class="Espagnol" id="langue" label="Espagnol"> Espagnol
+
+            </div>
+
+            <div class="bloc4">
+
+                <label for="dispo">Etes-vous disponible pour un emploi ?</label><br>
+
+                <input type="checkbox" class="oui" id="dispo"> OUI <input type="checkbox" class="non" id="dispo"> NON
+
+            </div>
+            
+            <div class="bloc5">
+
+                <label for="pays">Pays actuel</label><br>
+
+                <select name="pays" id="pays" class="pays">
+
+                    <option value="">Afghanistan</option>
+                    <option value="">Angola</option>
+                    <option value="">Algerie</option>
+                    <option value="">Allemand</option>
+                    <option value="">Russie</option>
+                    <option value="">France</option>
+                    <option value="">USA</option>
+                    <option value="">Bresil</option>
+                    <option value="">Inde</option>
+                    <option value="">Croatie</option>
+                </select>
+            </div>
+
+            <button type="submit" name="envoyer" class="submit">Envoyer</button> <button type="reset" name="annuler" class="reset">Annuler</button>
+        </div>
     </body>
 </html>
